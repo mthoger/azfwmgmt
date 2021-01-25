@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/sihubopsdevkv01",
+      "type": "secrets.keyVault",
+      "connectionId": "opskvUri",
+      "secretStore": null
+    },
+    "cosmosdb1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.DocumentDB/databaseAccounts/si-hub-azfwmgt-dev-cosmosdb01",
+      "type": "cosmosdb.azure",
+      "connectionId": "cosmosdb",
+      "secretStore": "AzureKeyVault"
+    }
+  }
+}

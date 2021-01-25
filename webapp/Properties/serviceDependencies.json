@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "opskvUri"
+    },
+    "cosmosdb1": {
+      "type": "cosmosdb",
+      "connectionId": "cosmosdb"
+    }
+  }
+}
